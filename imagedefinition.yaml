@@ -1,6 +1,6 @@
 name: project-sample-1
 image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win10-m365-gen2
 tasks:
-- name: powershell
-  inputs:
-    command: "Write-Output 'Hello, World!'"
+- name: winget
+  parameters:
+    package: GitHub.GitHubDesktop
