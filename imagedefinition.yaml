@@ -1,5 +1,5 @@
 image: MicrosoftWindowsDesktop_windows-ent-cpc_win11-21h2-ent-cpc-m365
 tasks:
-  - name: "run-hello-script"
+  - name: "powershell"
     inputs:
       command: "powershell WRITE-HOST 'Hello, World!'"
