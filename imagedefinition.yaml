@@ -3,6 +3,6 @@ name: "winget-gh-desktop"
 image: MicrosoftWindowsDesktop_windows-ent-cpc_win11-21h2-ent-cpc-m365
 
 tasks:
-  - name: ~/winget
+  - name: winget
     parameters:
       package: GitHub.GitHubDesktop
