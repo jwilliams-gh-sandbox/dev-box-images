@@ -2,6 +2,6 @@ $schema: 1.0
 name: project-sample-1
 image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win10-m365-gen2
 tasks:
-- name: "hello-world"
+- name: powershell
   inputs:
-    command: 'powershell.exe -Command "Write-Output ''Hello, World!''"'
+    command: "Write-Output 'Hello, World!'"
