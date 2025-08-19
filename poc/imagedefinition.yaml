@@ -1,6 +1,6 @@
 $schema: 1.0
 name: "winget-gh-desktop"
-image: MicrosoftWindowsDesktop_windows-ent-cpc_win11-21h2-ent-cpc-m365
+image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win10-m365-gen2
 tasks:
   - name: winget
     parameters:
