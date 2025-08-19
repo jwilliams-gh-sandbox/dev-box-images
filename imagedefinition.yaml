@@ -1,5 +1,7 @@
-image: MicrosoftWindowsDesktop_windows-ent-cpc_win11-21h2-ent-cpc-m365
+$schema: 1.0
+name: project-sample-1
+image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win10-m365-gen2
 tasks:
-  - name: "powershell"
-    inputs:
-      command: "powershell WRITE-HOST 'Hello, World!'"
+- name: "hello-world"
+  inputs:
+    command: 'powershell.exe -Command "Write-Output ''Hello, World!''"'
