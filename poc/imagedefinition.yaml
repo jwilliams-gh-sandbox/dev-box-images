@@ -1,6 +1,6 @@
 $schema: 1.0
 name: "winget-gh-desktop"
-image: poc_gallery/base-image@1.0.0
+image: "poc_gallery/base-image@1.0.0"
 tasks:
   - name: winget
     parameters:
