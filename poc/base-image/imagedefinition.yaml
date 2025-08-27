@@ -1,6 +1,6 @@
 $schema: 1.0
 name: "base-winget-gh-desktop"
-image: "demo_compute_gallary/base-image@1.0.0"
+image: "demo_compute_gallery/base-image@1.0.0"
 tasks:
   - name: winget
     parameters:
