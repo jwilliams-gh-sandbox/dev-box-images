@@ -1,0 +1,7 @@
+$schema: 1.0
+name: "winget-gh-desktop"
+image: "poc_gallery/poc-win11-image@1.0.0"
+tasks:
+  - name: winget
+    parameters:
+      package: GitHub.GitHubDesktop
