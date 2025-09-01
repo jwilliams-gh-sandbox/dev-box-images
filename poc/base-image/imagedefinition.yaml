@@ -6,17 +6,14 @@ tasks:
     task: WinGet
     parameters:
       package: Microsoft.VisualStudioCode
-  
   - name: Install_SSMS
     task: WinGet
     parameters:
       package: Microsoft.SQLServerManagementStudio
-  
   - name: Install_Git
     task: WinGet
     parameters:
       package: Git.Git
-      
   - name: Install_Docker_Desktop
     task: WinGet
     parameters:
