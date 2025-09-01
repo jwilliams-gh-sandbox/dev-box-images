@@ -2,15 +2,15 @@ $schema: 1.0
 name: "base-winget-gh-desktop"
 image: "demo_compute_gallery/base-image@1.0.0"
 tasks:
-  - name: Install_VS_Code
+  - name: winget
     parameters:
       package: Microsoft.VisualStudioCode
-  - name: Install_SSMS
+  - name: winget
     parameters:
       package: Microsoft.SQLServerManagementStudio
-  - name: Install_Git
+  - name: winget
     parameters:
       package: Git.Git
-  - name: Install_Docker_Desktop
+  - name: winget
     parameters:
       package: Docker.DockerDesktop
