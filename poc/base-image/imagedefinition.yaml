@@ -2,6 +2,22 @@ $schema: 1.0
 name: "base-winget-gh-desktop"
 image: "demo_compute_gallery/base-image@1.0.0"
 tasks:
-  - name: winget
+  - name: Install_VS_Code
+    task: WinGet
     parameters:
-      package: GitHub.GitHubDesktop
+      package: Microsoft.VisualStudioCode
+  
+  - name: Install_SSMS
+    task: WinGet
+    parameters:
+      package: Microsoft.SQLServerManagementStudio
+  
+  - name: Install_Git
+    task: WinGet
+    parameters:
+      package: Git.Git
+      
+  - name: Install_Docker_Desktop
+    task: WinGet
+    parameters:
+      package: Docker.DockerDesktop
